@@ -91,9 +91,7 @@ app.delete("/tasks/id", (req, res) => {
     res.status(204).send();
 })
 
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) ));
-
-
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) );
 
 
 
